@@ -1,5 +1,6 @@
 services:
   # Production API service (serves both API and frontend)
+  # Not done yet, might be used
   api:
     build:
       context: .

@@ -10,5 +10,9 @@ loggedIn:
 </script>
 
 <main>
-
+	<Navbar loggedIn={loggedIn} />
+	<button onclick={() => loggedIn = !loggedIn}>
+		from the app.svelte file
+		{loggedIn ? 'Logout' : 'Login'}
+	</button>
 </main> 
